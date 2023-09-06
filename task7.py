@@ -1,3 +1,5 @@
+# Write a Python program to find sequences of lowercase letters joined by an underscore.
+
 import re
 
 pattern = '^(_?[a-z]+_+[a-z]+(_+[a-z])?)+$'

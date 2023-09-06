@@ -1,3 +1,5 @@
+# Write a Python program that matches a word at the end of a string, with optional punctuation.
+
 import re
 
 pattern = '[A-Z]?[a-z]+\.?$'
