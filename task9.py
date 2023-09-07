@@ -3,7 +3,7 @@
 
 import re
 
-pattern = '^a.*b$'
+pattern = '^a.+b$'
 
 print(re.match(pattern, 'asjsdhjhfjdshb'))  # Match
 print(re.match(pattern, 'ab')) # Match
