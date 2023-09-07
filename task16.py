@@ -2,8 +2,8 @@
 
 import re
 
-ip = '000241.120.240.144'
-pattern = '^0+'
-result = re.sub(pattern, '', ip)
+ip = '0001000.55.0010.080'
+pattern = '0*(\d*)'
+result = re.sub(pattern, r'\1', ip)
 
 print(result)
